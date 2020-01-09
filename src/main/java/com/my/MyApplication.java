@@ -6,7 +6,7 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 /**
- * MyApplication
+ * @EnableScheduling : 开启定时任务知道
  *
  * @author lfy
  * @date 19-11-25
