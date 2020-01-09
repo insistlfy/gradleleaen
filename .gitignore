@@ -1,0 +1,15 @@
+*.iml
+*.ipr
+*.iws
+*.lck
+*.log
+.ideaDataSources
+dataSources
+.idea
+.idea/
+.gradle
+.gradle/
+build/
+*.attach_pid*
+src/main/resources/config/bootstrap-local.yml
+*/bootstrap-local.yml
