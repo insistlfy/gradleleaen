@@ -8,5 +8,11 @@ package com.my.strategy;
  **/
 public interface Strategy {
 
+    /**
+     * print
+     *
+     * @param str String
+     * @return String
+     */
     String print(String str);
 }

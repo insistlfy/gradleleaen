@@ -19,7 +19,6 @@ public class SimpleContext {
     @Autowired
     private final Map<String, Strategy> strategyMap = new ConcurrentHashMap<>();
 
-
     public String getResource(String string) {
         return strategyMap.get(string).print(string);
     }
