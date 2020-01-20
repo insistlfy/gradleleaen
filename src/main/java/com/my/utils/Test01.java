@@ -40,6 +40,7 @@ public class Test01 {
         System.out.println(list0.size());
         System.out.println(list1.size());
         System.out.println(map0.size());
+        System.out.println(map1.size());
 
     }
 }
