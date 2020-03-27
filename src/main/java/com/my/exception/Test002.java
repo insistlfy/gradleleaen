@@ -2,6 +2,8 @@ package com.my.exception;
 
 import lombok.extern.slf4j.Slf4j;
 
+import java.util.UUID;
+
 /**
  * Test002
  * TIP : e.printStackTrace() 会导致锁死  禁止使用 ,使用log日志代替
@@ -22,5 +24,8 @@ public class Test002 {
 //            log.error(e.toString());
             log.error("ERROR================>", e);
         }
+
+
+        System.out.println("UUID=============>"+UUID.randomUUID().toString());
     }
 }
