@@ -7,6 +7,7 @@ import java.util.UUID;
 /**
  * Test002
  * TIP : e.printStackTrace() 会导致锁死  禁止使用 ,使用log日志代替
+ * 参照 : https://baijiahao.baidu.com/s?id=1639733404613101605&wfr=spider&for=pc
  *
  * @author lfy
  * @date 2020/3/26
