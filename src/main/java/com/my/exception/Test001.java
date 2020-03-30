@@ -101,16 +101,6 @@ public class Test001 {
         }
     }
 
-    public static int test07() {
-        int i = 1;
-        return i++;
-    }
-
-    public static int test08() {
-        int i = 1;
-        return ++i;
-    }
-
     public static void main(String[] args) {
         System.out.println("TEST-01====>" + test01());
         System.out.println("=================================================");
@@ -124,8 +114,5 @@ public class Test001 {
         System.out.println("=================================================");
         System.out.println("TEST-06====>" + test06());
         System.out.println("=================================================");
-        System.out.println("TEST-07====>" + test07());
-        System.out.println("=================================================");
-        System.out.println("TEST-08====>" + test08());
     }
 }
