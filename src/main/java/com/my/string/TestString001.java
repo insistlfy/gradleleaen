@@ -30,7 +30,7 @@ public class TestString001 {
         a = "你好";
         System.out.println("拼接后a的内存地址为 : " + System.identityHashCode(a));
         System.out.println(a);
-        System.out.println("=========================================================");
+        System.out.println("**************************①**********************************");
 
         //*******************************②*****************************//
 
@@ -50,7 +50,7 @@ public class TestString001 {
             value[0] = '?';
             System.out.println("修改后 : " + java);
             System.out.println("修改后的内存地址 : " + System.identityHashCode(java));
-            System.out.println("=========================================================");
+            System.out.println("*******************************②*****************************");
         } catch (NoSuchFieldException | IllegalAccessException e) {
             e.printStackTrace();
         }
@@ -69,6 +69,18 @@ public class TestString001 {
         System.out.println(str1.length());
         //此处需关注trim()的源码
         System.out.println(str1 == str2);
-        System.out.println("=========================================================");
+        System.out.println("*******************************③*****************************");
+
+        //*******************************④*****************************//
+        // String的数据结构
+
+        String str01 = "hello";
+        String str02 = new String("hello");
+        char[] str03 = {'h', 'e', 'l', 'l', 'o'};
+        String str04 = "hel" + "lo";
+        System.out.println(str01 == str02);
+        System.out.println(str01 == str04);
+        System.out.println(str01.equals(str03));
+        System.out.println("*******************************④*****************************");
     }
 }
