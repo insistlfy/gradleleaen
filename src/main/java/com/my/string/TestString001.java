@@ -82,5 +82,19 @@ public class TestString001 {
         System.out.println(str01 == str04);
         System.out.println(str01.equals(str03));
         System.out.println("*******************************④*****************************");
+
+
+        //*******************************⑤*****************************//
+        // String "+" 底层通过StringBuilder拼接
+        String str001 = "a" + "b";
+
+        //线程安全
+        StringBuffer str002 = new StringBuffer("1");
+
+        //非线程安全
+        StringBuilder str003 = new StringBuilder("2");
+
+
+        System.out.println("*******************************⑤*****************************");
     }
 }
